@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Website - Senjuti</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div id="wrapper">
+    <div class="container">
+      <div class="navbar">
+        <div class="logo-container">
+          <img src="./images/userAsset/NavLogo.jpg.png" class="logo" />
+        </div>
+        <div class="nav-items">
+          <div><a href="#projects">Projects</a></div>
+          <div><a href="#skills">Skills</a></div>
+          <div><a href="#contactme">Contact Me</a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-section">
+      <div class="faded-text absolute">Senjuti </div>
+      <div class="hero-section-right">
+        <div class="hero-section-heading">Hi! Senjuti Pramanick</div>
+        <div class="hero-section-sub-heading hero-section-heading">
+          I am a <span class="role"></span>
+        </div>
+        <div class="hero-section-description">
+          ****************************************************************************************
+        </div>
+
+        <div class="btn-black" id="btn">Download CV</div>
+      </div>
+
+      <div class="hero-section-right">
+        <div class="user-image">
+          <img src="./images/userAsset/user.jpg.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="project-section" id="projects">
+      <h2 class="page-header">Projects</h2>
+      <div class="project-container">
+        <div class="project-card" id="project1">
+          <div class="project-number project-number-right">01</div>
+          <div class="project-content project-content-left">
+            <div class="project-skills-container">
+              <img src="./images/stack/HTML.png" alt="" class="project-skill" />
+              <img src="./images/stack/CSS.png" alt="" class="project-skill" />
+              <img src="./images/stack/Javascript.svg" alt="" class="project-skill" />
+            </div>
+            <h2 class="project-heading">Snake Game</h2>
+            <p class="project-subHeading">
+              Snake Game is a classic game.Using HTML for structure,CSS for styling the game board and snake and
+              Javascript for controlling the snake's movement based on keyboard input.
+            </p>
+            <div class="btn-grp">
+              <button class="btn-black btn-project">Read More</button>
+              <a href="https://github.com/SENJUTI25/snakegame">
+                <i title="GitHubLink" class="fa-brands fa-github icon"><img src="./images/stack/Github.svg"
+                    alt="" /></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="skills" class="container skills-container ">
+      <div class="skill-fade-text">Skills</div>
+      <div class="skill-container-left">
+        <h2 class="skill-heading">
+          Me and
+          <br />
+          MyTech Stack
+        </h2>
+        <div class="skill-subHeading">
+          <p>
+            Competent in HTML and CSS; can create and style webpages effectively with solid understanding.
+          </p>
+          <p>
+            Proficient in JavaScript; adept at building interactive web elements and handling complex functionalities
+            with efficiency and understanding.
+          </p>
+          <p>
+            Skilled in React; proficiently develop dynamic and responsive user interfaces, effectively utilize React
+            libraries, and manage state efficiently in applications with clear expertise.
+          </p>
+        </div>
+      </div>
+      <div class="skill-container-right">
+        <img src="./images/userAsset/blob vector.png" class="blob-style" alt="" />
+
+        <img src="./images/stack/HTML.png" alt="" class="skills-logo" />
+        <img src="./images/stack/CSS.png" alt="" class="skills-logo" />
+        <img src="./images/stack/Javascript.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/React.png" alt="" class="skills-logo" />
+        <img src="./images/stack/NodeJs.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/Next.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/Redux.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/Tailwind.png" alt="" class="skills-logo" />
+        <img src="./images/stack/Bootstrap.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/MaterialUI.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/Express.png" alt="" class="skills-logo" />
+        <img src="./images/stack/Git.svg" alt="" class="skills-logo" />
+        <!-- <img src="./images/stack/Github.svg" alt="" class="skills-logo" />
+          <img src="./images/stack/Graphql.svg" alt="" class="skills-logo" />
+          <img src="./images/stack/MongoDB.svg" alt="" class="skills-logo" />
+          <img src="./images/stack/Vercel.svg" alt="" class="skills-logo" />
+          <img src="./images/stack/ChartJs.svg" alt="" class="skills-logo" />
+          <img src="./images/stack/Bash.svg" alt="" class="skills-logo" />
+          <img src="./images/stack/Docker.svg" alt="" class="skills-logo" />
+          <img src="./images/stack/K8s.svg" alt="" class="skills-logo" />
+        </div> -->
+      </div>
+    </div>
+    <script src="http://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="http://kit.fontawesom.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script>
+      var typeData = new Typed(".role", {
+        strings: ["Web Developer", "Coder"],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 100,
+      });
+    </script>
+</body>
+
+</html>
